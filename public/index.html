@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/newsletter.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <title>Newsletter Signup</title>
+</head>
+<body>
+        <section>
+          <div class="container"><div class="user singinBx">
+            <div class="imgBx"><img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtaW5nJTIwd2FsbHBhcGVyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt=""></div>
+            <div class="formBx">
+            <form action="/signup" method="POST">
+              <h2>Registre seu email para receber nossas ofertas e descontos</h2>
+              <div class="form-group">
+                <input type="text" name="firstName" id="first-name" class="form-control" placeholder="First Name"
+                  required />
+              </div>
+              <div class="form-group">
+                <input type="text" name="lastName" id="last-name" class="form-control" placeholder="Last Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+              </div>
+              <input type="submit" name="" value="Pronto">
+              <p class="signup" onclick="toggleForm();">Não possui cadastro no nosso site?<a href="#">Cadastre-se</a></p>
+            </form>
+          </div>
+          </div>
+    </div>
+        </section>
+</body>
+</html>
